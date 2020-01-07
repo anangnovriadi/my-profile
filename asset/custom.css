@@ -26,3 +26,21 @@ body {
     font-size: 24px;
     color: #0077b5;
 }
+
+.fxxx {
+    font-size: 24px;
+    color: #ffff;
+}
+
+.social {
+    padding-top: 25px;
+}
+
+.social-bx {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#social {
+    display: none;
+}
