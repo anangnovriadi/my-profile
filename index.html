@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="hover-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <div class="content">
+        <div id="typed-strings">
+            <p>I am Anang and I want to do something with my life.
+                <br/>If my experiences and knowledge help you.
+                <br/>You are welcome to follow me on my journey.
+            </p>
+        </div>
+        <span class="tx" id="typed"></span>
+        <!-- <i><i class="fab fa-github fx"></i> <i class="fab fa-linkedin fxx"></i></p> -->
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 30
+        });
+    </script>
+</body>
+</html>
