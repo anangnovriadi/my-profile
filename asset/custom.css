@@ -33,7 +33,7 @@ body {
 }
 
 .social {
-    padding-top: 25px;
+    padding-top: 36px;
 }
 
 .social-bx {
@@ -42,5 +42,15 @@ body {
 }
 
 #social {
+    padding-top: 36px;
     display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        text-align: center;
+        padding-top: 30%;
+        padding-right: 36px;
+        padding-left: 36px;
+    }
 }

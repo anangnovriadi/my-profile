@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="asset/hover-min.css">
     <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <div class="content">
@@ -20,10 +21,10 @@
             </p>
         </div>
         <span class="tx" id="typed"></span>
-        <div class="social" id="social" style="padding-top: 24px;">
-            <a href=""><i class="fab fa-github fx social-bx"></i></a>
-            <a href=""><i class="fab fa-linkedin fxx social-bx"></i></a>
-            <a href=""><i class="fab fa-medium fxxx social-bx"></i></a>
+        <div class="social" id="social">
+            <a href=""><i id="github" class="fab fa-github fx social-bx"></i></a>
+            <a href=""><i id="linkedin" class="fab fa-linkedin fxx social-bx"></i></a>
+            <a href=""><i id="medium" class="fab fa-medium fxxx social-bx"></i></a>
         </div>  
     </div>
     
@@ -39,6 +40,14 @@
             setTimeout(function(){
                 $('#social').fadeIn(500);
             }, 8000);
+        });
+
+        $(document).ready(function () {
+            setTimeout(function(){
+                $('#github').addClass('bounce animated');
+                $('#linkedin').addClass('rubberBand animated');
+                $('#medium').addClass('shake animated');
+            }, 9000);
         });
     </script>
 </body>
